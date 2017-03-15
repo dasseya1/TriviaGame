@@ -1,5 +1,6 @@
-//These are global variables
+$(document).ready(function() {
 
+//These are global variables
 var number = 30;
 var intervalId;
 var gcount = 0;
@@ -87,4 +88,6 @@ $('input[type=radio]').on("change", function() {
    gcount =  $('input[value=goodanswer]:checked').length;
    wcount = $('input[value=wrong]:checked').length;
    unanswered = (7-(gcount + wcount));
+});
+
 });

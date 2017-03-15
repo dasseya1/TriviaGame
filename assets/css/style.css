@@ -1,4 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Creepster');
+
 form {
     margin-bottom: 3em;
 }
 
+h1 {
+    margin-top: 40px;
+    font-family: Creepster, cursive;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.container {
+    margin-top: 20px;
+    background-color: #f2f0d6;
+}
+
+#start {
+    margin: 320px 0 480px 0;
+}
