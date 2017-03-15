@@ -34,7 +34,7 @@ function rSummary(){
     var canswers = $('<p>').html('Correct answers: ' + gcount);
     var wanswers = $('<p>').html('Incorrect answers: ' + wcount);
     var cunanswered = $('<p>').html('Unanswered: ' + unanswered);
-    var newclass= $('<div class="col-lg-4 col-lg-offset-4 text-center">');
+    var newclass= $('<div class="col-lg-4 col-lg-offset-4 text-center" id="summary">');
     newclass.append(alldone);
     newclass.append(canswers);
     newclass.append(wanswers);
